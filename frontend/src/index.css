@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Irish+Grover&family=Jolly+Lodger&family=Pacifico&family=Patrick+Hand+SC&family=Permanent+Marker&display=swap');
+@import "tailwindcss";
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+
+*{
+  font-family: Patrick Hand SC;
+  font-weight: 900;
+  
+ 
+}
+
+.bg-customPurple {
+    background-color: #5713eba7;
+  }
+
+
+.filter-white {
+  filter: brightness(0) invert(1);
+}
+
+.lol {
+  filter: brightness(0) saturate(100%) invert(45%) sepia(80%) saturate(700%) hue-rotate(240deg);
+}
+.font-PermanentMarker{
+  font-family: Irish Grover;
+}
+.font-DynaPuff{
+  font-family: DynaPuff;
+}
+.font-JollyLodger{
+  font-family: Jolly Lodger;
+}
+
+.placeholder-color{
+  color: #e0e0e0;
+  font-weight: 300;
+}
